@@ -1,0 +1,475 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#mother-container1 {
+  background-color: #521755;
+  height: 100%;
+  width: 100%;
+}
+
+/* :root {
+  --navbar-height: 59px;
+} */
+
+#navbar {
+  display: flex;
+  position: relative;
+}
+
+#rocket {
+  margin: 15px 25px;
+}
+
+#rocket img {
+  height: 100px;
+  margin: 3px 6px;
+}
+
+#navbar ul {
+  display: flex;
+  font-family: "Righteous", normal;
+  margin-left: 575px;
+  margin-top: 30px;
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 24px;
+  line-height: 29.8px;
+}
+
+#navbar ul li a {
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  color: grey;
+}
+
+.primary {
+  color: white;
+  font-family: "Righteous", normal;
+}
+
+#container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 72px;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#heading1 {
+  font-size: 70px;
+}
+
+#p1 {
+  font-size: 40px;
+}
+
+#p2 {
+  font-size: 30px;
+}
+
+.btn {
+  background-color: #1e95f6;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 3px 10px;
+  margin: 3px;
+  color: white;
+  font-family: "Righteous", normal;
+}
+
+#btn:hover {
+  cursor: pointer;
+  background-color: #166fb8;
+}
+
+#aimage img {
+  height: 300px;
+}
+
+.wave {
+  margin: 0;
+  padding: 0;
+}
+
+.wave img {
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  width: 100%;
+}
+
+#mother-container2 {
+  background: linear-gradient(119.66deg, #4a154c 0%, #25306a 73.23%);
+  width: 100%;
+  height: 750px;
+}
+
+#zbcInfo {
+  width: 800px;
+  margin-left: 140px;
+}
+
+#heading1_1 {
+  text-align: right;
+  font-size: 50px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+#heading2 {
+  text-align: left;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+#para1 {
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+#para2 {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+#pic {
+  margin-left: 350px;
+}
+
+#pic img {
+  height: 230px;
+}
+
+#SDinfo {
+  margin-left: 80px;
+  width: 700px;
+  margin-bottom: 50px;
+}
+
+#container1 {
+  display: flex;
+  margin-bottom: 72px;
+  justify-content: space-evenly;
+}
+
+#container2 {
+  margin-top: 45px;
+  display: flex;
+}
+
+.logo {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.logo img {
+  height: 230px;
+}
+
+#wave2 {
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+#wave2 img {
+  width: 100%;
+  height: 375px;
+}
+
+#container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#headingWork {
+  font-size: 90px;
+  padding: 20px 60px;
+  font-weight: normal;
+}
+
+#rocket1 {
+  margin: 15px 25px;
+  position: absolute;
+}
+
+#rocket1 img {
+  height: 100px;
+  margin: 3px 6px;
+}
+
+#workPara {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  padding: 20px 50px;
+}
+
+#myhr {
+  position: absolute;
+  left: 33.33%;
+  right: 33.27%;
+}
+
+#headingMoon {
+  font-family: "Poppins", sans-serif;
+  color: #022275;
+  font-size: 90px;
+  font-weight: normal;
+}
+
+#moonLaunch {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+
+#hex1 {
+  display: flex;
+}
+
+#hex1 img {
+  display: inline-block;
+  margin: auto;
+}
+
+#hex2hex3 {
+  display: flex;
+  justify-content: center;
+}
+
+#hex2hex3 img {
+  display: inline-block;
+}
+
+#hex4hex5hex6 {
+  display: flex;
+  justify-content: center;
+}
+
+#orbiterHeading {
+  font-family: "Poppins", sans-serif;
+  color: #022275;
+  font-size: 90px;
+  font-weight: normal;
+}
+
+#orbiters {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+
+#orbiterImg {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#projects {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+
+#projectHeading {
+  font-family: "Poppins", sans-serif;
+  color: #022275;
+  font-size: 90px;
+  font-weight: normal;
+}
+
+.box {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+#projectImg {
+  margin-bottom: 100px;
+}
+
+#wave-4 {
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+#wave-4 img {
+  width: 100%;
+  height: 230px;
+}
+
+#container4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#headingEvent {
+  font-size: 90px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: normal;
+}
+
+.card {
+  background: linear-gradient(157.48deg, #521755 0.87%, #293576 100%);
+  display: flex;
+  flex-direction: column;
+  padding-top: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+#container4 {
+  display: flex;
+  flex-direction: column;
+}
+
+#card-container {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.btn1 {
+  border-radius: 15px;
+  padding: 5px 10px;
+  width: 70%;
+  font-family: "Righteous", normal;
+  margin: 60px 0px;
+  font-size: 20px;
+}
+
+.btn1:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+
+#contactHeading {
+  font-family: "Poppins", sans-serif;
+  color: #022275;
+  font-size: 90px;
+}
+
+#contact {
+  margin: 20px 80px;
+}
+
+.form-group input {
+  display: block;
+  width: 500px;
+  padding: 4px;
+  border: 2px solid black;
+  margin: 5px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-group1 input {
+  display: block;
+  width: 500px;
+  height: 150px;
+  padding: 4px;
+  border: 2px solid black;
+  margin: 5px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+#form-container {
+  display: flex;
+  align-items: right;
+  padding: 20px;
+}
+
+#container5 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+#wave3 {
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+#wave3 img {
+  width: 100%;
+  height: 230px;
+}
+
+#txt {
+  text-align: center;
+  font-size: 45px;
+  width: 400px;
+  margin-left: 75px;
+}
+
+#footer {
+  display: flex;
+  margin-top: 90px;
+}
+
+#social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 400px;
+}
+
+#mailUs {
+  font-size: 45px;
+}
+
+#mail {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+
+#rocketImg {
+  margin: 0px 20px;
+}
+
+#rocketImg img {
+  height: 75px;
+}
+
+.icon {
+  height: 65px;
+}
